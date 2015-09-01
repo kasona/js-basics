@@ -40,11 +40,43 @@ Boolean(canDrive);
  * (there are 6 different data types);
  */
 
-dataType = ["Boolean", "Null", "Undefined", "Number", "String", "Symbol"];
+
+/*
+var nullType = null;
+var booleanType = Boolean;
+var numberType = Number;
+var stringType = String; */
+
+
+// var undefinedType = undefined; // Alerted defined not needed
+
+
+var dataTypes = [
+    true,
+    undefined,
+    0,
+    'hi',
+     {},
+     null,
+     ];
+
+     // {} object in an object
 
 
 /* Create a Dog object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
  */
+
+
+var dog = {
+  name : 'Spot',
+  bark : function(){
+    console.log('bark!');
+  }
+
+
+
+};
+
 
